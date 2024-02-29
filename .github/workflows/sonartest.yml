@@ -13,6 +13,6 @@ jobs:
     - name: SonarQube Scan
       uses: sonarsource/sonarqube-scan-action@v1
       with:
-        url: ${{ secrets.SONARQUBE_HOST }}
-        token: ${{ secrets.SONARQUBE_TOKEN }}
-        projectKey: "githooks"
+        SONAR_HOST_URL : ${{ secrets.SONARQUBE_HOST }}
+        SONAR_TOKEN : ${{ secrets.SONARQUBE_TOKEN }}
+        SONAR_PROJECTKEY: "githooks"
