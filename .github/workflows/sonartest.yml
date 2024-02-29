@@ -16,3 +16,4 @@ jobs:
         host: ${{ secrets.SONARQUBE_HOST }}
         login: ${{ secrets.SONARQUBE_TOKEN }}
         projectKey: "githooks"
+        java-version: 21
