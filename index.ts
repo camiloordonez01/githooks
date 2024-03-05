@@ -1,21 +1,5 @@
-const  main = () => {
-    let hello = 'hello'
-
-    console.log(hello)
+const sum = (a, b) => {
+    return a + b;
 }
 
-const  main2 = () => {
-    let hello = 'hello'
-
-    console.log(hello)
-}
-
-const  main3 = () => {
-    let hello = 'hello'
-
-    console.log(hello)
-}
-
-main()
-main2()
-main3()
+export default sum
