@@ -1,7 +1,7 @@
 name: githooks
 on:
   pull_request: 
-    types: [opened, edited]
+    types: [opened, synchronize]
     branches: main
 jobs:
   creation-pull-request:
